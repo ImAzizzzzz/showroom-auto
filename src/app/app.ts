@@ -21,7 +21,7 @@ export class AppComponent {
       modele: 'BMW X5',
       prix: 150000,
       puissance: 340,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/bmw-x5.avif',
+      photo: 'assets/Photos/bmw-x5.avif',
       disponibilite: 5
     },
     {
@@ -29,7 +29,7 @@ export class AppComponent {
       modele: 'BMW Serie 3',
       prix: 95000,
       puissance: 255,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/bmw-serie3.jpg',
+      photo: 'assets/Photos/bmw-serie3.jpg',
       disponibilite: 8
     },
     {
@@ -37,7 +37,7 @@ export class AppComponent {
       modele: 'BMW M4',
       prix: 180000,
       puissance: 510,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/bmw-m4.jpg',
+      photo: 'assets/Photos/bmw-m4.jpg',
       disponibilite: 3
     },
     {
@@ -45,7 +45,7 @@ export class AppComponent {
       modele: 'Mercedes Classe C',
       prix: 105000,
       puissance: 258,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/mercedes-c.jpg',
+      photo: 'assets/Photos/mercedes-c.jpg',
       disponibilite: 6
     },
     {
@@ -53,7 +53,7 @@ export class AppComponent {
       modele: 'Mercedes GLE',
       prix: 165000,
       puissance: 367,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/mercedes-gle.jpeg',
+      photo: 'assets/Photos/mercedes-gle.jpeg',
       disponibilite: 4
     },
     {
@@ -61,7 +61,7 @@ export class AppComponent {
       modele: 'Audi A4',
       prix: 98000,
       puissance: 249,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/audi-a4.jpg',
+      photo: 'assets/Photos/audi-a4.jpg',
       disponibilite: 7
     },
     {
@@ -69,7 +69,7 @@ export class AppComponent {
       modele: 'Audi Q7',
       prix: 155000,
       puissance: 335,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/audi-q7.jpg',
+      photo: 'assets/Photos/audi-q7.jpg',
       disponibilite: 5
     }
     ,
@@ -78,7 +78,7 @@ export class AppComponent {
       modele: 'Model S Plaid',
       prix: 230000,
       puissance: 1020,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/tesla-model-s-plaid.webp',
+      photo: 'assets/Photos/tesla-model-s-plaid.webp',
       disponibilite: 2
     },
     {
@@ -86,7 +86,7 @@ export class AppComponent {
       modele: '911 Carrera',
       prix: 350000,
       puissance: 385,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/porsche-911-carrera.jpg',
+      photo: 'assets/Photos/porsche-911-carrera.jpg',
       disponibilite: 1
     },
     {
@@ -94,7 +94,7 @@ export class AppComponent {
       modele: 'Mustang GT',
       prix: 145000,
       puissance: 450,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/ford-mustang-gt.jpg',
+      photo: 'assets/Photos/ford-mustang-gt.jpg',
       disponibilite: 4
     },
     {
@@ -102,7 +102,7 @@ export class AppComponent {
       modele: 'Golf GTI',
       prix: 55000,
       puissance: 245,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/vw-golf-gti.webp',
+      photo: 'assets/Photos/vw-golf-gti.webp',
       disponibilite: 12
     },
     {
@@ -110,7 +110,7 @@ export class AppComponent {
       modele: 'Clio RS',
       prix: 35000,
       puissance: 200,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/renault-clio-rs.webp',
+      photo: 'assets/Photos/renault-clio-rs.webp',
       disponibilite: 9
     },
     {
@@ -118,7 +118,7 @@ export class AppComponent {
       modele: 'GT-R',
       prix: 320000,
       puissance: 570,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/nissan-gt-r.avif',
+      photo: 'assets/Photos/nissan-gt-r.avif',
       disponibilite: 1
     },
     {
@@ -126,7 +126,7 @@ export class AppComponent {
       modele: 'RX 450h',
       prix: 130000,
       puissance: 308,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/lexus-rx-450h.avif',
+      photo: 'assets/Photos/lexus-rx-450h.avif',
       disponibilite: 6
     },
     {
@@ -134,7 +134,7 @@ export class AppComponent {
       modele: 'Civic Type R',
       prix: 62000,
       puissance: 320,
-      photo: 'https://ImAzizzzzz.github.io/Showroom-Auto/Photos/honda-civic-type-r.avif',
+      photo: 'assets/Photos/honda-civic-type-r.avif',
       disponibilite: 7
     }
   ];
