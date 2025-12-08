@@ -16,6 +16,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 button {
   font-family: inherit;
 }

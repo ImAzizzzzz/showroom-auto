@@ -6,6 +6,40 @@
     (selectAutoEvent)="updateAuto($event)">
   </app-search-bar>
 
+  <div class="gallery-container" *ngIf="autoList && autoList.length">
+    <h2 class="gallery-title">Nos véhicules disponibles</h2>
+
+    <div class="brand-sections">
+      <section *ngFor="let group of groupedAutos" class="brand-section">
+        <div class="brand-header">
+          <h3>{{ group.marque }}</h3>
+          <div class="brand-count">{{ group.autos.length }} modèle(s)</div>
+        </div>
+        <div class="brand-grid">
+          <div *ngFor="let auto of group.autos; let i = index" class="car-card" [style.animationDelay]="i * 0.04 + 's'">
+            <div class="card-image">
+              <img [src]="auto.photo" [alt]="auto.modele" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <div class="card-brand">{{ auto.marque }}</div>
+                <div class="card-availability" [class.low-stock]="auto.disponibilite <= 3">{{ auto.disponibilite }} en stock</div>
+              </div>
+              <h3 class="card-model">{{ auto.modele }}</h3>
+              <div class="card-specs">
+                <span class="spec-power">{{ auto.puissance }} CV</span>
+                <span class="spec-price">{{ formatPrice(auto.prix) }}</span>
+              </div>
+              <div class="card-actions">
+                <button class="card-btn" (click)="updateAuto(auto)">Voir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
   <div class="details-container" *ngIf="selectedAuto">
     <button class="close-details" (click)="closeDetails()">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
