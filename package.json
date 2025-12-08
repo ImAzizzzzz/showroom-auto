@@ -5,7 +5,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:gh": "ng build --configuration production --base-href /Showroom-Auto/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
